@@ -1,0 +1,53 @@
+{
+  "fuel": {
+    "lastUpdated": "September 28, 2026",
+    "lastUpdatedISO": "2026-09-28",
+    "week": "Sep 22 – 28, 2026",
+    "averages": {
+      "diesel":   { "price": 104.91, "change": 8.82, "label": "Diesel" },
+      "gasoline": { "price": 92.59,  "change": 4.88, "label": "Unleaded (RON 91)" }
+    },
+    "cheapest": {
+      "diesel":   [["PTT", 100.13], ["Flying V", 100.73], ["Unioil", 103.46]],
+      "gasoline": [["Flying V", 86.84], ["PTT", 89.59], ["Unioil", 90.42]]
+    },
+    "next": {
+      "date": "Tuesday, Sept 29",
+      "status": "estimate",
+      "diesel":   [-7.00, -8.00],
+      "gasoline": [-0.50, -1.00],
+      "kerosene": [-5.00, -6.00]
+    },
+    "history": [
+      { "wk": "Sep 1",  "diesel": -3.83, "gasoline": -0.32 },
+      { "wk": "Sep 8",  "diesel": 5.18,  "gasoline": 4.69 },
+      { "wk": "Sep 15", "diesel": 4.31,  "gasoline": 5.68 },
+      { "wk": "Sep 22", "diesel": 8.82,  "gasoline": 4.88 },
+      { "wk": "Sep 29", "diesel": -7.50, "gasoline": -0.75, "projected": true }
+    ],
+    "sources": [
+      "https://gaswatchph.com/",
+      "https://www.rappler.com/business/fuel-prices-adjustments-september-22-2026/",
+      "https://philnews.ph/2026/09/26/oil-price-rollback-set-tuesday-september-29-2026"
+    ]
+  },
+  "electricity": {
+    "lastUpdated": "September 28, 2026",
+    "lastUpdatedISO": "2026-09-28",
+    "month": "September 2026",
+    "home":     { "rate": 14.7424, "change": -0.0409, "label": "Home (Meralco)" },
+    "publicAC": { "rate": 24.03, "label": "Public AC", "asOf": "DOE national average, Mar 31, 2026" },
+    "publicDC": { "rate": 30.15, "label": "Public DC fast", "asOf": "DOE national average, Mar 31, 2026" },
+    "networks": [
+      { "name": "Home charging (Meralco)", "type": ["Home", "AC 7 kW"], "rate": "₱14.74", "note": "Cheapest per kWh. Most BYD promos include a Type-2 home charger." },
+      { "name": "SM Supermalls", "type": ["AC 7.4 kW", "DC 80 kW*"], "rate": "FREE", "free": true, "note": "160+ chargers in 73 malls. 3-hour limit per session. *DC at select malls." },
+      { "name": "ACMobility (Evro app)", "type": ["AC 7–22 kW"], "rate": "₱22–28.50", "note": "Largest public network; Makati, BGC, Alabang, Luzon–Mindanao." },
+      { "name": "ACMobility DC fast", "type": ["DC up to 150 kW"], "rate": "₱35", "note": "Fast top-ups on the road." },
+      { "name": "Other public networks", "type": ["AC", "DC"], "rate": "₱20–38", "note": "Solarius, Galaxy Charge, Voltai, Petron, Seaoil, Megaworld, BYD dealers. Rates vary by site." }
+    ],
+    "sources": [
+      "https://company.meralco.com.ph/news-and-advisories/lower-rates-september-2026",
+      "https://www.volthub.ph/blog/ev-charging-cost-philippines-home-vs-public"
+    ]
+  }
+}
