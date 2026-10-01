@@ -1,64 +1,64 @@
 {
   "fuel": {
-    "lastUpdated": "September 28, 2026",
-    "lastUpdatedISO": "2026-09-28",
-    "week": "Sep 22 – 28, 2026",
+    "lastUpdated": "October 1, 2026",
+    "lastUpdatedISO": "2026-10-01",
+    "week": "Sep 29 – Oct 5, 2026",
     "averages": {
       "diesel": {
-        "price": 104.91,
-        "change": 8.82,
+        "price": 95.95,
+        "change": -7.57,
         "label": "Diesel"
       },
       "gasoline": {
-        "price": 92.59,
-        "change": 4.88,
+        "price": 89.55,
+        "change": -0.24,
         "label": "Unleaded (RON 91)"
       }
     },
     "cheapest": {
       "diesel": [
         [
-          "PTT",
-          100.13
+          "Flying V",
+          92.49
         ],
         [
-          "Flying V",
-          100.73
+          "PTT",
+          93.22
         ],
         [
           "Unioil",
-          103.46
+          94.61
         ]
       ],
       "gasoline": [
         [
           "Flying V",
-          86.84
+          84.11
         ],
         [
           "PTT",
-          89.59
+          88.61
         ],
         [
-          "Unioil",
-          90.42
+          "Phoenix",
+          88.77
         ]
       ]
     },
     "next": {
-      "date": "Tuesday, Sept 29",
-      "status": "final",
+      "date": "Tuesday, Oct 6",
+      "status": "pending",
       "diesel": [
-        -7.57,
-        -7.57
+        0,
+        0
       ],
       "gasoline": [
-        -0.24,
-        -0.24
+        0,
+        0
       ],
       "kerosene": [
-        -5.85,
-        -5.85
+        0,
+        0
       ]
     },
     "history": [
@@ -90,8 +90,8 @@
     ],
     "sources": [
       "https://gaswatchph.com/",
-      "https://philnews.ph/2026/09/28/doe-announces-oil-price-rollback-september-29-2026-tuesday",
-      "https://tnt.abante.com.ph/2026/09/28/presyo-ng-produktong-petrolyo-matatapyasan-sa-sept-29/news/"
+      "https://gaswatchph.com/price-history",
+      "https://www.topgear.com.ph/news/industry-news/ph-fuel-price-update-september-29-october-5-2026-a2619-20260928"
     ]
   },
   "electricity": {
